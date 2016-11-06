@@ -1,0 +1,23 @@
+{
+  "name": "flume-example",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/flume-example",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/flume-example.git"
+  },
+  "dependencies": {
+    "flumecli": "0.0.2",
+    "flumedb": "0.0.1",
+    "flumelog-memory": "^0.1.1",
+    "flumeview-reduce": "0.0.1",
+    "statistics": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}
